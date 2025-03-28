@@ -1,0 +1,240 @@
+/*Header Styles*/
+.header-container {
+    background-color: #097080;
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+    
+}
+h1 {    
+    background-color: #097080;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+
+/*Navigation Bar Styles*/
+.nav-container {
+    background-color: #333;
+    color: #fff;
+    padding: 1px;
+}
+
+.nav-container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+.nav-container li {
+    float: left;
+  }
+  
+.nav-container  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+/* Product Card Styles */
+.product-container {
+    max-width: 1200px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    width: 300px;
+    margin: 10px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 60px;
+    margin-bottom: 15px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #097080;
+    color: #fff;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+/* Pop-up Styles */
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    z-index: 1000;
+}
+
+/* About The Charity Page*/
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.mission-history {
+    max-width: 1200px;
+    margin: 25px auto;
+    padding: 25px;
+    background-color: #c5ccdc;
+    box-shadow: 0 0 10px #097080;
+    border: 1px solid #000648;
+    border-radius: 10px;
+}
+
+.mission-history {
+    text-align: justify;
+}
+h2 {
+    text-align: center;
+}
+
+/* News And Events Page */
+.events {
+    max-width: 1200px;
+    margin: 25px auto;
+    padding: 10px;
+    background-color: #c5ccdc;
+    margin-top: 200px auto;
+    border: 1px solid #000648; 
+    box-shadow: 0 0 10px #097080;
+    border-radius: 10px;
+}
+
+h2, h3 {
+    text-align: center;
+    color: #000000; /* Center text and change text color to white */
+}
+
+body{background-color: #fff;}
+
+
+
+
+/* Contact Us */
+.Opportunities {
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 10px;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    max-width: 1275px;
+}
+
+.Opportunities h2 {
+    color: #333;
+}
+
+.Opportunities ul {
+    list-style-type: disc;
+}
+
+.Opportunities > div {
+    margin-bottom: 30px;
+}
+
+.Opportunities > div h2,
+.Opportunities > div ul,
+.Opportunities > div p,
+.Opportunities > div form {
+    font-family: 'Arial', sans-serif;
+    color: #333333;
+}
+
+.Opportunities > div form {
+    margin-top: 20px;
+}
+
+.Opportunities > div form label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.Opportunities > div form input,
+.Opportunities > div form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    
+}
+
+.Opportunities > div form input[type="submit"] {
+    background-color: #000b86;
+    color: #fff;
+    cursor: pointer;
+    
+    
+}
+
+.Opportunities > div form input[type="submit"]:hover {
+    background-color: #333;
+}
+
+/* Additional styling for the combined box */
+.Opportunities > div {
+    border: 1px solid #000648;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #c5ccdc;
+    box-shadow: 0 0 10px #097080;
+}
+
+
+.Opportunities > div form input[type="submit"] {
+    background-color: #000b86;
+    color: #fff;
+    cursor: pointer;
+    
+}
+
+.Opportunities > div form input[type="submit"]:hover {
+    background-color: #333;
+}
+
+body{background-color:#fff;}
+
+
+
+
+
+    
+
+
